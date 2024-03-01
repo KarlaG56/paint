@@ -6,6 +6,7 @@ import cv2
 class Handler:
     def __init__(self, window):
         self.window = window
+        self.window.title("Paint")
         self.canvas_width = 800
         self.canvas_height = 600
         self.canvas = tk.Canvas(window, width=self.canvas_width, height=self.canvas_height)
